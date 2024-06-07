@@ -7,23 +7,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Home Page</title>
-  <style>
-    / * Стили для навигационного меню * / nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-    }
-  
-    nav ul {
-      list-style: none;
-      display: flex;
-    }
-  
-    nav li {
-      margin-left: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>
